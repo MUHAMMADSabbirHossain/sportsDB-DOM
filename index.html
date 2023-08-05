@@ -15,7 +15,28 @@
 </head>
 
 <body>
-    <h2>hello</h2>
+    <header></header>
+    <main>
+        <div class="container w-100 m-auto">
+            <div class="row w-100 m-auto">
+                <div class="col-md-6 m-auto text-center">
+                    <h1>left side</h1>
+                    <div class="input-group mb-3">
+                        <input id="search-box" type="text" class="form-control" placeholder="Search" aria-label="Search"
+                            aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span onclick="allPlayers()" class="input-group-text" id="search-btn">Search</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 m-auto text-center">
+                    <h1>right side</h1>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
 
     <!-- js file link -->
     <script src="./app.js"></script>
